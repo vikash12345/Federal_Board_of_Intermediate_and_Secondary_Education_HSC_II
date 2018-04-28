@@ -23,10 +23,10 @@ for($page = 500001;$page <= 597006; $page++)
 		{
 			$nameofresult		=	$browser->find("//*[@id='item']/table[1]/tbody/tr/td/font/b",0)->plaintext;
 			$rollno 		=	$browser->find("//*[@id='item']/table[2]/tbody/tr[1]/td[2]",0)->plaintext;
-			$name 			=	$browser->find("//*[@id='item']/table[2]/tbody/tr[3]/td[2]",0)->plaintext;
-			$fname			=	$browser->find("//*[@id='item']/table[2]/tbody/tr[4]/td[2]",0)->plaintext;
-			$result			=	$browser->find("//*[@id='item']/table[2]/tbody/tr[5]/td[2]",0)->plaintext;
-			$remarks		=	$browser->find("//*[@id='item']/table[2]/tbody/tr[6]/td[2]",0)->plaintext;
+			$name			=	$browser->find("//*[@id='item']/table[2]/tbody/tr[2]/td[2]",0)->plaintext;
+			$fname 			=	$browser->find("//*[@id='item']/table[2]/tbody/tr[3]/td[2]",0)->plaintext;
+			$result			=	$browser->find("//*[@id='item']/table[2]/tbody/tr[4]/td[2]",0)->plaintext;
+			$remarks		=	$browser->find("//*[@id='item']/table[2]/tbody/tr[5]/td[2]",0)->plaintext;
       
       
       $record = array( 'rollno' =>$rollno, 
